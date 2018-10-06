@@ -6,7 +6,7 @@ The code solution for a client has a really poorly set up for building an Angula
 
 1. Replace the webpack.config.js file with the angular.json file
 
-## Build output
+## Webpack Build output
 
     $ npx webpack
     Hash: 004c9e79d7f52088cd86
@@ -22,3 +22,16 @@ The code solution for a client has a really poorly set up for building an Angula
     [./src/app/app.module.ts] 1.13 KiB {main} [built]
     [./src/main.ts] 413 bytes {main} [built]
         + 204 hidden modules
+
+## Angular Build output (version 1)
+
+    $ ng build
+
+    Date: 2018-10-06T07:36:26.284Z
+    Hash: c2e44b309aa0568fcb5c
+    Time: 8094ms
+    chunk {main} main.js, main.js.map (main) 7.94 kB [initial] [rendered]
+    chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 396 kB [initial] [rendered]
+    chunk {runtime} runtime.js, runtime.js.map (runtime) 6.22 kB [entry] [rendered]
+    chunk {styles} styles.js, styles.js.map (styles) 15.6 kB [initial] [rendered]
+    chunk {vendor} vendor.js, vendor.js.map (vendor) 2.95 MB [initial] [rendered]
